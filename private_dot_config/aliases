@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+# +--------+
+# | System |
+# +--------+
+
+alias shutdown='sudo shutdown now'
+alias restart='sudo reboot'
+
+# +----+
+# | ls |
+# +----+
+
+alias ls='ls --color=auto'
+alias l='ls -l'
+alias ll='ls -lahF'
+alias lls='ls -lahFtr'
+alias la='ls -A'
+alias lc='ls -CF'
+
+# +------+
+# | wget |
+# +------+
+alias wget='wget --hsts-file="$XDG_DATA_HOME/.wget-hsts"'
+
+# +----+
+# | cp |
+# +----+
+
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -iv'
+
+# +------+
+# | grep |
+# +------+
+
+alias grep="grep -P -i --color=auto"
+
+
